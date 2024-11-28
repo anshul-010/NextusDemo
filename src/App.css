@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+@media (min-width :601px){
+    body{
+        display:none
+    }
+}
+
+.main-inside-div{
+    background: url("./assets/Images/Home_Screen_BG.jpg") ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom-bar-div{
+    position: absolute;
+    width: 94%;
+    margin: 0 16px;
+    bottom: 16px;
+    display: flex;
+    padding: 0px 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    gap: 8px;
+    border-radius: 16px;
+    border: 1px solid var(--crypto-white-stroke, rgba(255, 255, 255, 0.20));
+    background: var(--crypto-white-linear, linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.02) 100%));
+    backdrop-filter: blur(5px);
+
+}
+
+.svg-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    padding: 24px 16px;
+    flex: 1 0 0;
+    display: flex;
+    height: 70px;
+    padding: 24px 14px;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+
+.active{
+    background: linear-gradient(180deg, rgba(243, 112, 33, 0.00) 28.13%, rgba(243, 112, 33, 0.30) 100%);
+}
+
+.bird-img{
+    width: 198.757px;
+    height: 198.757px;
+    flex-shrink: 0;
+    filter: drop-shadow(0 -20px 90px #F37021);
+
+    
+}
+.bird-img>img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-bird-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot-left{
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    transform: rotate(180deg);
+    margin-right: 10px;
+}
+.dot-left>img{
+    height: 100%;
+    width: 100%;
+}
+
+.dot-right{
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+.dot-right>img{
+    height: 100%;
+    width: 100%;
+}
+
+.beginner{
+    color: var(--Nextus-White, #FFF);
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 28.8px */
+    letter-spacing: 0.48px;
+}
+
+.outer-bar{
+    height: 6px ;
+    width: 254px;
+    background-color: #E0D9CB4D;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.inner-bar{
+    height: 6px ;
+    width: 154px;
+    background-color: #F37021;
+    /* margin: auto; */
+    border-radius: 8px;
+}
+
+.number{
+    display: inline-flex;
+    height: 27px;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 500px;
+    border: 1px solid var(--crypto-white-stroke, rgba(255, 255, 255, 0.20));
+    background: var(--crypto-white-linear, linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.02) 100%));
+    backdrop-filter: blur(5px);
+    margin: auto;
+}
+
+.number>p{
+    color: var(--Nextus-Orange, #F37021);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bar-line-div{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    margin-top: 50px;
+}
+
+.bird-slider{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.active-div{
+    width: 124.255px;
+    height: 124.255px;
+    flex-shrink: 0;
+    opacity: 0.8;
+    background:  rgb(42, 41, 41) 10% / cover no-repeat;
+    mix-blend-mode: plus-lighter;
+    border-radius: 15px;
+
+}
+
+.active-div>img{
+    width: 124.255px;
+    height: 124.255px;
+}
+
+
+.active-div {
+    opacity: 0.5;
+    transition: all 0.3s ease;
+  }
+  
+  .active-div.active {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+
+.main-bird-box-slider{
+    padding-top: 100px;
+}
+
+.bird-text{
+    color: var(--Nextus-White, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 10.872px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 13.047px */
+    letter-spacing: 0.217px;
+}
+
+
