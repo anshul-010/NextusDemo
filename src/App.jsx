@@ -1,16 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { Level } from './components/Level'
+import "./App.css";
+import { Home } from "./components/Home";
+import { Settings } from "./components/Settings";
+import { SplashScreen } from "./components/SplashScreen";
 
 function App() {
-
-  return (
-    <>
-      <Level/>
-    </>
-  )
+  return <>
+  <SplashScreen/>
+    {/* <Home/> */}
+    {/* <Settings/> */}
+  </>;
+  
 }
 
-export default App
+export default App;

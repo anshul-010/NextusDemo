@@ -1,0 +1,294 @@
+.home-main-box{
+    height: 100vh;
+    background: url("../assets/Images/Home_Screen_BG.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.home-main-box{
+    padding: 17px 18px 16px 18px;
+}
+
+.home-top-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-right-side-icon{
+    display: flex;
+    padding: 2.847px 5.695px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.icon-box{
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 5.333px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.icon-box>img{
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.daily-info-div{
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.daily-trade{
+    display: flex;
+    height: 90px;
+    padding: 8px 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+
+}
+
+.reward-img-box{
+    width: 36.878px;
+    height: 36px;
+    flex-shrink: 0;
+}
+.reward-img-box>img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.daily-trade-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.daily-trade-text :nth-child(1){
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-align: center;
+}
+.daily-trade-text :nth-child(2){
+    color: #A0A0A0;
+    font-family: Poppins;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.16px;
+}
+
+.line{
+    width: 1px;
+    height: 41px;
+    /* transform: rotate(90deg); */
+    background-color: #F1F1F1;
+    margin: 0;
+    padding: 0;
+}
+
+.point-per-min{
+    display: flex;
+    padding: 6px 10px;
+    align-items: center;
+    gap: 6px;
+    border-radius: 12px;
+    border: 1px solid var(--crypto-white-stroke, rgba(255, 255, 255, 0.20));
+    background: var(--crypto-white-linear, linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.02) 100%));
+    backdrop-filter: blur(5px);
+}
+
+.coins-box>img{
+    width: 32px;
+    height: 32px;
+}
+
+.point-text-i{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.point-text-i :nth-child(1){
+    color: #A0A0A0;
+    font-family: Poppins;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.16px;
+}
+
+.k-no{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.96px;
+}
+
+.point-count-div{
+    display: flex;
+    width: 256px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 2px auto ;
+}
+
+.coint-point{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 16px;
+}
+
+.coint-point>img{
+    width: 40px;
+    height: 40px;
+}
+
+.coint-point>p{
+    color: var(--Nextus-Orange, #F37021);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 38.4px */
+    letter-spacing: 0.64px;
+}
+
+.level-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.level-box>p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.home-robo-bird{
+    width: 246px;
+    height: 246px;
+    flex-shrink: 0;
+    margin: 10px auto;
+}
+.home-robo-bird>img{
+    height: 100%;
+    width: 100%;
+}
+
+.booster-div{
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.booster-div :nth-child(1){
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.booster-div :nth-child(2){
+    display: flex;
+    height: 34px;
+    padding: 0px 12px;
+    align-items: center;
+    gap: 8px;
+}
+
+.Bitcoin4>img{
+    width: 15.856px;
+    height: 22px;
+    flex-shrink: 0;
+}
+.Bitcoin4>p{
+    color: var(--Nextus-Orange, #F37021);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Bitcoin6>img{
+    width: 26.222px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.Bitcoin6>p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+.home-bottom-bar-div{
+    position: absolute;
+    bottom: 16px;
+    display: flex;
+    width: 92%;
+    padding: 0px 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    gap: 8px;
+    border-radius: 16px;
+    border: 1px solid var(--crypto-white-stroke, rgba(255, 255, 255, 0.20));
+    background: var(--crypto-white-linear, linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.02) 100%));
+    backdrop-filter: blur(5px);
+
+}
+
+.svg-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    padding: 24px 16px;
+    flex: 1 0 0;
+    display: flex;
+    height: 70px;
+    padding: 24px 14px;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+
+.active{
+    background: linear-gradient(180deg, rgba(243, 112, 33, 0.00) 28.13%, rgba(243, 112, 33, 0.30) 100%);
+}

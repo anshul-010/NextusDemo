@@ -66,7 +66,7 @@ export const BirdBox = () => {
           <p>{`${currentIndex + 1}/${data.length}`}</p>
         </div>
       </div>
-      <div className="bird-slider">
+      {/* <div className="bird-slider">
         {data?.map((ele, index) => (
           <div
             key={index}
@@ -78,7 +78,7 @@ export const BirdBox = () => {
             <p className="bird-text">{ele.title}</p>
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
