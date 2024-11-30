@@ -5,9 +5,9 @@ import { SplashScreen } from "./components/SplashScreen";
 
 function App() {
   return <>
-  <SplashScreen/>
+  {/* <SplashScreen/> */}
     {/* <Home/> */}
-    {/* <Settings/> */}
+    <Settings/>
   </>;
   
 }
