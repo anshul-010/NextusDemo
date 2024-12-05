@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/settings.css";
 export const Settings = () => {
+  const [sound, setSound] = useState(false);
+  const [connectWallet, setConnectWallet] = useState(false);
+  const [connectNextus, setConnectNextus] = useState(false);
+
   return (
     <div className="home-main-box">
       <div>
@@ -50,9 +54,68 @@ export const Settings = () => {
                 </div>
               </div>
             </div>
-            <div></div>
+            <div>
+              <div className="settings-options">
+                <div className="option-item">
+                  <span>Language</span>
+                  <span className="option-value">English</span>
+                </div>
+                <div className="option-item">
+                  <span>Sound</span>
+                  <div className="toggle">
+                    <input
+                      type="checkbox"
+                      id="soundToggle"
+                      checked={sound}
+                      onChange={() => setSound(!sound)}
+                    />
+                    <label
+                      htmlFor="soundToggle"
+                      className="toggle-slider"
+                    ></label>
+                  </div>
+                </div>
+                <div className="option-item">
+                  <span>Connect Wallet</span>
+                  <div className="toggle">
+                    <input
+                      type="checkbox"
+                      id="walletToggle"
+                      checked={connectWallet}
+                      onChange={() => setConnectWallet(!connectWallet)}
+                    />
+                    <label
+                      htmlFor="walletToggle"
+                      className="toggle-slider"
+                    ></label>
+                  </div>
+                </div>
+                <div className="option-item">
+                  <span>Connect Nextus</span>
+                  <div className="toggle">
+                    <input
+                      type="checkbox"
+                      id="nextusToggle"
+                      checked={connectNextus}
+                      onChange={() => setConnectNextus(!connectNextus)}
+                    />
+                    <label
+                      htmlFor="nextusToggle"
+                      className="toggle-slider"
+                    ></label>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div></div>
+          <div className="hori-line">
+          </div>
+          <div className="setting-bottom-text">
+            <p>Help</p>
+            <p>Delete Account</p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+          </div>
         </div>
       </div>
     </div>
